@@ -1,0 +1,17 @@
+<%- include('partials/header.ejs'); -%>
+    <main>
+
+        <h1>Dogs</h1>
+        <p>*it is necessery to give the name of breed for finding sub-breed</p>
+        <form method="post">
+            <input type="text" class="input" name="breed" placeholder="click and enter Breed">
+            <input type="submit" class="find" value="Find" formaction="/find-breed">
+            <input type="text" class="input" name="subbreed" placeholder="click and enter Sub-Breed">
+            <input type="submit" class="find" value="Find" formaction="/find-sub-breed">
+    
+        </form>
+        <div class="img">
+            <img src = <%= image %> alt="image">
+        </div>
+    </main>
+    <%- include('partials/footer.ejs'); -%>

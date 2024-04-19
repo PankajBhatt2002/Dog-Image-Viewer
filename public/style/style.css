@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background: linear-gradient(to right, #ffcc00, #ff6699);
+    /* background-color: yellow; */
+    text-align: center;
+    margin: -20px;
+}
+
+.img{
+    /* background-color: gray;     */
+    border: 5px solid black;
+    border-radius: 15px;
+    height: 500px;
+    width: 450px;
+    margin: 0px auto;
+    display: block;
+}
+.img img{
+    /* background-color: gray;     */
+    border: 5px solid black;
+    border-radius: 15px;
+    height: 500px;
+    width: 450px;
+    margin: 0px auto;
+    display: block;
+}
+.input{
+    height: 30px;
+    width: 250px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(189, 136, 136);
+}
+.input::placeholder{
+    font-weight: lighter;
+    font-size:larger ;
+    color: rgb(21, 21, 58);
+}
+.find{
+    height: 33px;
+    width: 100px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #45a049;;
+}
+.find:hover{
+    cursor: pointer;
+    background-color: #17761c;;
+}
+nav{
+    background-color: black;    
+}
+nav ul{
+    display: flex;
+    margin: 0;
+}
+nav ul li{
+    font-size: larger;
+    margin: 10px 40px;
+    list-style: none;
+}
+nav ul li a{
+    font-size: larger;
+    margin: 5px 20px;
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li a:hover{
+    color: rgb(93, 79, 201);
+    background-color: rgb(39, 31, 31);
+}
+footer{
+    margin: 25px;
+    background-color: rgb(105, 142, 142);
+    text-align: center;
+}
+
+/* Form Styles of contact */
+.contactForm {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.contactLabel {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contactInput[type="text"],
+.contactInput[type="email"],
+textarea {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin: 10px 80px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* paragraph of about section */
+.pAbout, .pSuggestion{
+    margin: 40px;
+    padding: 40px;
+    padding-top: 0px;
+}
+
